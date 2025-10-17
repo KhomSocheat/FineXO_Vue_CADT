@@ -15,13 +15,13 @@
           <div class="collapse navbar-collapse" id="navbarSupportedContent">
             <ul class="navbar-nav  ">
               <li class="nav-item active">
-                <a class="nav-link" href="index.html">Home <span class="sr-only">(current)</span></a>
+                <router-link class="nav-link" to="/">Home</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="about.html"> About</a>
+               <router-link class="nav-link" to="/about">About</router-link>
               </li>
               <li class="nav-item">
-                <a class="nav-link" href="service.html">Services</a>
+               <router-link class="nav-link" to="/service">Service</router-link>
               </li>
               <li class="nav-item">
                 <a class="nav-link" href="why.html">Why Us</a>

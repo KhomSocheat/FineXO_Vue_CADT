@@ -9,7 +9,7 @@
           <p>
             <slot name="text"></slot>
           </p>
-          <div class="d-flex">
+          <div class="">
               <slot name="content"></slot>
           </div>
         </div>
